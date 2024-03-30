@@ -15,6 +15,9 @@ The code contained in this repository can be run using Python 3 with the depende
 sudo pip install -r requirements.txt
 ```
 
+## Code Fixes
+
+
 ## Usage
 
 ### Dataset
