@@ -744,10 +744,12 @@ def pred_and_save_masks_3d_simple(
 
         # Get preds
         image = batch['image']
-        mask = batch['mask']
+        #NOTE: Commented this code to fix the KeyError: 'mask'
+        #mask = batch['mask']
 
         image = image.to(device, dtype=torch.float32)
-        mask = mask.to(device, dtype=torch.float32)
+        #NOTE: Commented this code to fix the KeyError: 'mask'
+        #mask = mask.to(device, dtype=torch.float32)
 
         with torch.no_grad():
             pred = unet(image)

@@ -75,13 +75,24 @@ if __name__ == '__main__':
             image_only = True
         )
 
+        # NOTE: Modified code to fix the error with 
+        # TypeError: pred_and_save_masks_3d_simple() missing 1 required positional argument: 'save_masks_dir'
         pred_and_save_masks_3d_simple(
-            unet,
             args.model_save_path,
             dataset,
+            unet,
             n_classes,
+            n_channels,
             args.save_masks_dir
         )
+
+#        pred_and_save_masks_3d_simple(
+#            unet,
+#            args.model_save_path,
+#            dataset,
+#            n_classes,
+#            args.save_masks_dir
+#        )
 
     else:
 
