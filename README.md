@@ -17,6 +17,9 @@ sudo pip install -r requirements.txt
 
 ## Usage
 
+## Code Fixes
+
+
 ### Dataset
 
 The data used in this study was taken from the publicly available Dynamic contrast-enhanced magnetic resonance images of breast cancer patients with tumor locations (Duke-Breast-Cancer-MRI) which is available at https://doi.org/10.7937/TCIA.e3sv-re93. 
