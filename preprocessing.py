@@ -414,4 +414,6 @@ def zscore_image(image_array):
 
     image_array = (image_array - np.mean(image_array)) / np.std(image_array)
 
-    return image_array
+    return image_array\
+    
+
