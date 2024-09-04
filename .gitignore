@@ -7,3 +7,6 @@ __pycache__
 **/*.csv
 **/*.nrrd
 **/LICENSE
+data
+data/**
+**/data/**
