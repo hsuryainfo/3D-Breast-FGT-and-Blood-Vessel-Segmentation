@@ -2,7 +2,7 @@ from preprocessing import *
 
 #updated method to take alist of dicom file from a directory
 #This function removes the dependency of mapping csv file used by dukes code
-def read_precontrast_mri_ispy(full_sequence_dir):
+def read_ispy_mri(full_sequence_dir):
 
     dicom_file_list = sorted(os.listdir(full_sequence_dir))
     dicom_data_list = []
